@@ -1,0 +1,36 @@
+file,problem,category,paired_with,similarity_score,actual,predicted
+original/maximum.py,maximum,original,exact_copy/maximum_copy.py,1.0000,Similar,Similar
+exact_copy/maximum_copy.py,maximum,exact_copy,original/maximum.py,1.0000,Similar,Similar
+variable_renamed/maximum_renamed.py,maximum,variable_renamed,original/maximum.py,0.6121,Similar,Similar
+reformatted/maximum_formatted.py,maximum,reformatted,original/maximum.py,0.8672,Similar,Similar
+restructured/maximum_restructured.py,maximum,restructured,original/maximum.py,0.0000,Similar,Not Similar
+different_algorithm/maximum_builtin.py,maximum,different_algorithm,original/maximum.py,0.3848,Not Similar,Not Similar
+unrelated/fibonacci.py,maximum,unrelated,original/maximum.py,0.4449,Not Similar,Similar
+original/minimum.py,minimum,original,exact_copy/minimum_copy.py,1.0000,Similar,Similar
+exact_copy/minimum_copy.py,minimum,exact_copy,original/minimum.py,1.0000,Similar,Similar
+variable_renamed/minimum_renamed.py,minimum,variable_renamed,original/minimum.py,0.6193,Similar,Similar
+reformatted/minimum_formatted.py,minimum,reformatted,original/minimum.py,0.8672,Similar,Similar
+restructured/minimum_restructured.py,minimum,restructured,original/minimum.py,0.4898,Similar,Similar
+different_algorithm/minimum_builtin.py,minimum,different_algorithm,original/minimum.py,0.3848,Not Similar,Not Similar
+unrelated/prime.py,minimum,unrelated,original/minimum.py,0.3327,Not Similar,Not Similar
+original/factorial.py,factorial,original,exact_copy/factorial_copy.py,1.0000,Similar,Similar
+exact_copy/factorial_copy.py,factorial,exact_copy,original/factorial.py,1.0000,Similar,Similar
+variable_renamed/factorial_renamed.py,factorial,variable_renamed,original/factorial.py,0.6701,Similar,Similar
+reformatted/factorial_formatted.py,factorial,reformatted,original/factorial.py,0.8365,Similar,Similar
+restructured/factorial_restructured.py,factorial,restructured,original/factorial.py,0.5521,Similar,Similar
+different_algorithm/factorial_builtin.py,factorial,different_algorithm,original/factorial.py,0.3471,Not Similar,Not Similar
+unrelated/factorial_unrelated.py,factorial,unrelated,original/factorial.py,0.2886,Not Similar,Not Similar
+original/palindrome.py,palindrome,original,exact_copy/palindrome_copy.py,1.0000,Similar,Similar
+exact_copy/palindrome_copy.py,palindrome,exact_copy,original/palindrome.py,1.0000,Similar,Similar
+variable_renamed/palindrome_renamed.py,palindrome,variable_renamed,original/palindrome.py,0.6533,Similar,Similar
+reformatted/palindrome_formatted.py,palindrome,reformatted,original/palindrome.py,0.8269,Similar,Similar
+restructured/palindrome_restructured.py,palindrome,restructured,original/palindrome.py,0.4005,Similar,Similar
+different_algorithm/palindrome_builtin.py,palindrome,different_algorithm,original/palindrome.py,0.5553,Not Similar,Similar
+unrelated/palindrome_unrelated.py,palindrome,unrelated,original/palindrome.py,0.3572,Not Similar,Not Similar
+original/prime.py,prime,original,exact_copy/prime_copy.py,1.0000,Similar,Similar
+exact_copy/prime_copy.py,prime,exact_copy,original/prime.py,1.0000,Similar,Similar
+variable_renamed/prime_renamed.py,prime,variable_renamed,original/prime.py,0.8230,Similar,Similar
+reformatted/prime_formatted.py,prime,reformatted,original/prime.py,0.8839,Similar,Similar
+restructured/prime_restructured.py,prime,restructured,original/prime.py,0.7186,Similar,Similar
+different_algorithm/prime_builtin.py,prime,different_algorithm,original/prime.py,0.6428,Not Similar,Similar
+unrelated/prime_unrelated.py,prime,unrelated,original/prime.py,0.3452,Not Similar,Not Similar
